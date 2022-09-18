@@ -11,11 +11,11 @@
 ![LMS 135][lms_135]
 
 <!-- Change REPO_NAME for the name of your repository -->
-[lms_126]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms126.yml/badge.svg
-[lms_127]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms127.yml/badge.svg
-[lms_129]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms129.yml/badge.svg
-[lms_130]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms130.yml/badge.svg
-[lms_131]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms131.yml/badge.svg
-[lms_132]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms132.yml/badge.svg
-[lms_133]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms133.yml/badge.svg
-[lms_135]: https://github.com/linero-tech/REPO_NAME/actions/workflows/wf-lms135.yml/badge.svg
+[lms_126]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms126.yml/badge.svg
+[lms_127]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms127.yml/badge.svg
+[lms_129]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms129.yml/badge.svg
+[lms_130]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms130.yml/badge.svg
+[lms_131]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms131.yml/badge.svg
+[lms_132]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms132.yml/badge.svg
+[lms_133]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms133.yml/badge.svg
+[lms_135]: https://github.com/linero-tech/kotlin-hw-moongalaxy/actions/workflows/wf-lms135.yml/badge.svg
