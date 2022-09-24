@@ -1,6 +1,10 @@
 package lms_126
 
 fun task5() {
-
-    TODO("Erase this line and write your solution")
+    /*
+    INPUT X == 1 to 8
+    if monday == X
+   then 8 is not valid day
+   output print result
+     */
 }

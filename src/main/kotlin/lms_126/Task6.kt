@@ -1,6 +1,9 @@
 package lms_126
 
 fun task6() {
-
-    TODO("Erase this line and write your solution")
+    /*
+    input all numbers from 1 to 100
+    if multiples of 5 then
+    output all numbers
+     */
 }
