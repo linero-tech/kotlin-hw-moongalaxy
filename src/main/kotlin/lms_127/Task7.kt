@@ -1,6 +1,10 @@
 package lms_127
 
 fun task7(sentence: String): Int {
-
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+val result = sentence.length
+    println("The sentence is present ´$sentence´ has $result characters")
+    return result
+}
+fun main() {
+    task7("i´m going crazy")
 }
