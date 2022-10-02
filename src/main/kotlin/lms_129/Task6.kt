@@ -2,5 +2,15 @@ package lms_129
 
 fun task6(number: Int): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    var result = 0
+    var n = number
+
+    while ( n > 0) {
+        result  = result * 10 + n % 10
+        n /=10
+    }
+    return result
+}
+fun main (){
+    println( task6( number = 876))
 }
