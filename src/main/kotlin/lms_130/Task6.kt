@@ -1,22 +1,22 @@
 package lms_130
 
-fun task6(sentence: String): String {
-   val result = String
-    val oldstring ="I like Gothenburg"
+fun task6(sentence: String): String { var result = ""
+    for ( index in sentence.indices){
 
-    var newstring = ""
-
-    oldstring.forEachIndexed { index, letter ->
-        newstring += if (index % 2 == 0){
-          letter.toUpperCase()
-        }else {
-            letter
+        var letter = sentence[index]
+        if (index % 2 == 0 ){
+            letter = letter.toUpperCase()
         }
+        result += letter
     }
-     println("The upper cased text = $newstring")
-    return result.toString()
+
+
+
+
+
+    return result
 
 }
-  fun main(){
-      task6(sentence = "I like Gothenburg")
-  }
+fun main (){
+    println(task6("i like gothenburg "))
+}
