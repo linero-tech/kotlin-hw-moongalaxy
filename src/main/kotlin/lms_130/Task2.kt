@@ -1,8 +1,23 @@
 package lms_130
-
+/*
 fun task2(items: List<Int>): Int {
-    var result = 4
 
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+     var result = 0
+     var listofitems = listOf(0..10)
+
+    if (index % 2 == 0){
+        println("even")
+    }else{
+        println(listofitems.isEmpty())
+    }
+
+
+
+
+    return result
 }
+fun main () {
+    println(task2(items = listOf(4)))
+}
+*/
