@@ -12,7 +12,7 @@ for (number in items){
     }
 }
 
-return result
+return result.toSet().toList()
 }
 
 fun main (){
