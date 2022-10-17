@@ -2,15 +2,36 @@ package lms_130
 
 fun task12_1(sells: List<Int>): String {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val days = listOf<String>("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+    val maxSellVallue = sells.maxOrNull()
+    val indexOfMaxSellValue = sells.indexOf(maxSellVallue)
+    val result = days[indexOfMaxSellValue]
+
+    println(result)
+
+    return result
 }
 
 fun task12_2(sells: List<Int>): String {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val days = listOf<String>("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+    val maxSetlVallue = sells.minOrNull()
+    val indexOfMaxSellValue = sells.indexOf(maxSetlVallue)
+    val result = days[indexOfMaxSellValue]
+
+    println(result)
+
+    return result
 }
 
 fun task12_3(sells: List<Int>): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    var result = 0
+    sells.forEach {
+        result += it
+    }
+
+    println(result)
+
+    return result
 }
