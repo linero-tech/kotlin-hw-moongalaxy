@@ -10,7 +10,7 @@ fun task10(items: List<Int>): List<Int> {
             number = i * 2
             result.add(number)
 
-        }else{ i % 2 == 1
+        }else{
             number = i * 3
 
             result.add(number)
