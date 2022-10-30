@@ -1,5 +1,7 @@
 package lms_130
 
+import java.security.PKCS12Attribute
+
 fun task12_1(sells: List<Int>): String {
 
     val days = listOf<String>("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
@@ -34,4 +36,7 @@ fun task12_3(sells: List<Int>): Int {
     println(result)
 
     return result
+}
+fun main() {
+    val listOfsells  = listOf( 1, 2,)
 }

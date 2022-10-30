@@ -2,12 +2,24 @@ package lms_130
 
 fun task11_1(guests: List<String>): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+    val result = guests.size
+    return result
+
 }
 
 fun task11_2(guests: List<String>, condition: String): List<String> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val result = mutableListOf<String>()
+    for (guest in guests) {
+        if (guest.contains(condition)) {
+            result.add(guest)
+
+        }
+
+    }
+
+    return result
 }
 
 fun main() {
