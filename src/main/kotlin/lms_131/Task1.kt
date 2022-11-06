@@ -2,5 +2,17 @@ package lms_131
 
 fun task1(): Map<Int, Int> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+    val result = mutableMapOf<Int, Int>()
+    for (number in 10..20) {
+        if (number % 2 != 0) {
+            result[number] = number * 2
+        }
+    }
+
+    return result
+}
+
+fun main() {
+    println(task1())
 }
