@@ -2,5 +2,14 @@ package lms_132
 
 fun task6(items: List<Int?>): List<Int?> {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
-}
+        val result = mutableListOf<Int?>()
+        items.forEachIndexed { index, item -> if (item != null) result += item * index
+        else {
+            result += null
+        }
+        }
+        return result
+    }
+    fun main() {
+        println(task6(items = listOf(1, 2, null)))
+    }

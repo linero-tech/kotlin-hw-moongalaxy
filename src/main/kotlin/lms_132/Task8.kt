@@ -1,6 +1,14 @@
 package lms_132
 
 fun task8(items: List<String?>): List<String> {
+    
+        val result = mutableListOf<String>()
+        items.forEach { item ->
+            if (item !== null && item.length > 3) result += item
+        }
+        return result
+    }
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
-}
+    fun main() {
+        println(task8(items = listOf("Hello", "Gothenburg", null)))
+    }

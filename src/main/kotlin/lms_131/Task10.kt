@@ -8,5 +8,5 @@ fun task10(mapa: Map<Int, String>): Map<String, Int> {
     return result
 }
 fun main (){
-    println(task10(mapa = Map<Int, String>(1 to "A", 2 to "B", 3 to "C")))
+    println(task10(mapOf(1 to "A", 2 to "B", 3 to "C")))
 }

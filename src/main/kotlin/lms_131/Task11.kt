@@ -7,6 +7,6 @@ fun task11(mapa: Map<Int, String>, prospect: Int): Boolean {
 
     return result
 }
-fun main (){
-    println(task11(mapa = mapOf(1 to "A", 2 to "B", 3 to "C") ))
+fun main () {
+    println(task11(mapa = mutableMapOf(1 to "A", 2 to "B", 3 to "C"), prospect = 1))
 }

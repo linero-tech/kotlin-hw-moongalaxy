@@ -2,5 +2,12 @@ package lms_132
 
 fun task2(items: List<Int?>?): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
-}
+        var result = 0
+        items?.forEach { item ->
+            if (item == null) result += 1
+        }
+        return result
+    }
+    fun main (){
+        println(task2(items = listOf( null, 1 , 2 ,null,3)))
+    }
