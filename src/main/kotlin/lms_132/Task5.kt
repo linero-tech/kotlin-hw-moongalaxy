@@ -27,5 +27,5 @@ fun task5(word: String?): Boolean {
 
 }
 fun main (){
-    println(task5(word = "hola"))
+    println(task5(word = "hello"))
 }
