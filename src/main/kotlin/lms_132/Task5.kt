@@ -2,30 +2,24 @@ package lms_132
 
 fun task5(word: String?): Boolean {
 
-    var result = false
-    val newWord = word?.toLowerCase()
-    val duplicateLetter = mutableListOf<Char>()
-    // is word null or empty, result = false
-    if (newWord.isNullOrEmpty()) {
-        result = false
-    } else {
-        // go over the word
-        newWord.forEach { letter ->
-            // is there any duplicate letter? then false
-            if (letter in newWord) {
-                result = false
-            }else{
-                // is there any duplicates letter? then false
-                if(letter !in duplicateLetter){
-                    result = true
+        var result = false
+        val duplicateLetter = mutableListOf<Char>()
+        if (word.isNullOrEmpty()) {
+            result = false
+        } else {
+            word.toLowerCase().forEach { letter ->
+                if (letter in word) {
+                    result = false
+                } else {
+                    if (letter !in duplicateLetter) {
+                        result = true
+                    }
                 }
             }
         }
+        return result
     }
-    // is there any duplicate letter? then false
-    return result
+    fun main() {
+        println(task5(word = "isogram"))
 
-}
-fun main (){
-    println(task5(word = "hello"))
 }

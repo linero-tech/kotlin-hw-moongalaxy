@@ -1,6 +1,6 @@
 package lms_131
 
-fun task11(mapa: Map<Int, String>, prospect: Int): Boolean {
+fun task11(mapa: Map<Int, String>, prospect: Int): MutableMap<String, Int> {
 
     val result = mutableMapOf<String, Int>()
     mapa.forEach {entity -> result[entity.value] = entity.key}
