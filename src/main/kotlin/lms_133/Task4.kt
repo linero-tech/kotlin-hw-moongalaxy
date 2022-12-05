@@ -1,3 +1,5 @@
 package lms_133
 
-// TODO(Create your function here)
+fun washing(Int: Int, Int: Int): Double{
+
+}
