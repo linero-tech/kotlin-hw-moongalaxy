@@ -15,5 +15,5 @@ fun censorship(input: String): String {
 
 
 fun main() {
-    println(censorship(input = "I what in whatever"))
+    println(censorship(input = "I live in sweden"))
 }
