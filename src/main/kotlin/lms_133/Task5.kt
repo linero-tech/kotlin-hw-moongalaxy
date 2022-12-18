@@ -1,20 +1,30 @@
 package lms_133
 
-fun groceries(groceryList: List<Map<String, Any>>): Double {
+fun groceries(stock: List<Map<String, Any>> = listOf(mapOf("product" to "", "quantity" to 0, "price" to 0.0))): Double {
+
     var result = 0.0
-    if(groceryList.isEmpty()) {
-        result
-    }else{
-        groceryList.forEach  { input ->
-            val input1 = input.getValue("quantity")
-            val input2 = input.getValue("price")
-            result = input1 as Int * input2 as Double
-        }
+
+    stock.forEach { item ->
+        val quantity = item["quantity"].toString()
+        val price = item["price"].toString()
+        val itemPrice = quantity.toDouble() * price.toDouble()
+        result += itemPrice
     }
+
     return result
 }
 
-fun main(){
-    println(groceries(groceryList =
-    listOf(mapOf("product" to "milk", "quantity" to 1, "price" to 1.50))))
+fun main() {
+    println(groceries(listOf(
+        mapOf(
+            "product" to "Milk",
+            "quantity" to 3,
+            "price" to 1.50
+        ),
+        mapOf(
+            "product" to "Meat",
+            "quantity" to 3,
+            "price" to 2.50
+        )
+    )))
 }
