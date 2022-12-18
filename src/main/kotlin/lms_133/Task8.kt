@@ -9,3 +9,6 @@ fun vowels(sentence: String): Int {
     }
     return result
 }
+fun main (){
+    println(vowels("I love Kotlin"))
+}

@@ -5,3 +5,6 @@ fun tweet(input: String): String {
     while (result.length != 280) result += "@"
     return result
 }
+fun main (){
+    println(tweet("I feel good today!"))
+}
