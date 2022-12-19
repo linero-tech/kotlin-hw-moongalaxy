@@ -1,16 +1,20 @@
 package lms_135
- class Account (
-    val balance:Double
-    ){
-     fun deposit (amount: Double){}
-     init {
+class Account(var balance: Double) {
 
-     }
+    fun deposit(deposit: Double) {
+        balance += deposit
+    }
 
-     fun withdrawal ( balance: Double) {}
+    fun withdrawal(amount: Double) {
+        if (balance >= amount) {
+            balance -= amount
+        }
+    }
 
-       init {
+    fun fee(): Double {
+        balance *= 0.95
 
-       }
-     fun fee() {}
- }
+        return balance
+    }
+
+}
