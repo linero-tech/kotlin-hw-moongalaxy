@@ -18,3 +18,6 @@ class Account(var balance: Double) {
     }
 
 }
+fun main (){
+    val seb = Account(100.00)
+}
